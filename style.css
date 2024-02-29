@@ -1,0 +1,103 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3E3232;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    padding: 15px 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    z-index: 5;
+}
+
+.nav h1 {
+    color: #A87C7C;
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+}
+
+.nav ul {
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav nav ul li {
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    color: antiquewhite;
+    margin-right: 40px;
+    align-items: center;
+}
+
+main section {
+    position: fixed;
+    top: 100px;
+    z-index: -5;
+    background-image: url('coffee-image.jpg');
+    background-position: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100vw;
+}
+
+section #main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    height: 350px;
+    width: 400px;
+    background-color: rgba(135, 206, 235, 0.05);
+}
+
+main section div #title {
+    color: #503C3C;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+main section div #subtitle {
+    color: darkred;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #503C3C;
+    color: antiquewhite;
+    padding: 5px;
+    margin: 15px;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 15%;
+}
+
+#menu {
+    margin-left: 90px;
+}
+
+section #main #buttons {
+    display: flex;
+    flex-direction: row;
+}
